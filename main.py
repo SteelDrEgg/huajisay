@@ -33,7 +33,7 @@ else:
 
 img = Image.open("./huaji.jpg")
 draw = ImageDraw.Draw(img)
-font = ImageFont.truetype("./STHeitiMedium.ttc", 18)
+font = ImageFont.truetype("./MsBlack.ttf", 18)
 
 draw.text((startPoint * 9.6, 90), target, font=font, align="center", fill="#000000")
 img.show()
